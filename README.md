@@ -8,7 +8,7 @@
 
 ### Included currently are features like:
 
--Payment processing through Stripe
+- **Payment processing through Stripe
 -User account authentication
 -A simple, mobile-friendly layout with TailwindCSS
 
