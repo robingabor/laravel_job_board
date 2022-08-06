@@ -4,7 +4,7 @@
 
 
 
-- Check the live project :  [https://laravel-job-board.link/](https://laravel-job-board.link/).
+- Check the live project :  [https://laravel-job-board.link/](https://laravel-job-board.link/)
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
