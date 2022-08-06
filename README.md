@@ -8,9 +8,9 @@
 
 ### Included currently are features like:
 
-Payment processing through Stripe
-User account authentication
-A simple, mobile-friendly layout with TailwindCSS
+-Payment processing through Stripe
+-User account authentication
+-A simple, mobile-friendly layout with TailwindCSS
 
 ## Learning Laravel
 
