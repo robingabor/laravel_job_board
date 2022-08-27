@@ -21,6 +21,7 @@
           <!-- {{-- Content --}} -->
           <div class="-my-6">
               <div class="flex flex-wrap md:flex-nowrap">
+                
                   <div class="content w-full md:w-3/4 pr-4 leading-relaxed text-base">
                     <!-- {{-- Echo  HTML content  --}} -->
                       {!! $listing->content !!}

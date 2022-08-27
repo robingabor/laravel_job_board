@@ -29,7 +29,7 @@
                  href="{{ route('listings.show',$listing->slug) }}" class="py-6 px-4 flex flex-wrap md:flex-nowrap border-b border-gray-100 {{ $listing->is_highlighted ? 'bg-yellow-100 hover:bg-yellow-200' : 'bg-white hover:bg-gray-100' }}"
                 >
                     <div class="md:w-16 md:mb-0 mb-6 mr-4 flex-shrink-0 flex flex-col">
-                        <img src="/storage/{{ $listing->logo  }}" alt="{{ $listing->company }} logo" class="w-16 h-16 rounded-full object-cover">
+                        <img src="/storage/{{ $listing->logo  }}" alt="{{ $listing->company }} logo" class="w-16 h-16 rounded-   object-cover">
                     </div>
                     <div class="md:w-1/2 mr-8 flex flex-col items-start justify-center">
                         <h2 class="text-xl font-bold text-gray-900 title-font mb-1">{{ $listing->title }}</h2>
@@ -42,7 +42,7 @@
                             <span class="inline-block ml-2 tracking-wide text-xs font-medium title-font py-0.5 px-1.5 border border-indigo-500 uppercase {{ $tag->slug === request()->get('tag') ? 'bg-indigo-500 text-white' : 'bg-white text-indigo-500' }}">
                                 {{ $tag->name }}
                             </span>
-                        @endforeach
+                        @endforeach 
                     </div>
                     {{-- how long its been since it was posted --}}
                     <span class="md:flex-grow flex items-center justify-end">

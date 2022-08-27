@@ -19,10 +19,8 @@ class ListingFactory extends Factory
         
         $title = $this->faker->sentence(rand(5,7));
         $datetime = $this->faker->dateTimeBetween('-1 month','now');
-        $image = $this->faker->image(storage_path('app/public'),640,480);
-        // $image = $this->faker->image();
-        // dd($image);
-        // $logo = new File($image);
+        $image = $this->faker->image(storage_path('app/public'),640,480);        
+        // dd($image);        
 
         $content = '';
 

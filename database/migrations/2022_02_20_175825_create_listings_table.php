@@ -26,6 +26,7 @@ class CreateListingsTable extends Migration
             $table->string('logo')->nullable();    
             $table->boolean('is_highlighted')->default(false);
             $table->boolean('is_active')->default(true);
+            // the format of text is raw HTML
             $table->text('content');
             // redirect to link
             $table->string('apply_link');

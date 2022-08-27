@@ -82,7 +82,8 @@ class ListingController extends Controller
     // show the individual listing's details
     public function show(Listing $listing, Request $request)
     {
-      
+        // this way we can utilize Laravel model route binding and immediately get a listing object back
+        // we do not have to perform a query
 
         return view('listings.show', compact('listing'));
     }

@@ -9,6 +9,7 @@ class Click extends Model
 {
     use HasFactory;
 
+    // We want to insert all column values
     protected $guarded = [];
 
     // each click belongs to 1 listing
